@@ -1,5 +1,7 @@
 Network-Report
 ==============
+Analysis of Social Network
+--------------------------
 
   Social networking is re-defining the nature of relationships and how people interact with each other. The analysis of these social networks helps to understand these relationships and how being connected to others impacts the user. While analyzing my social networking graph, I’ve found distinct relationships and patterns between my friends on Facebook.  
   When I initially imported the .gdp file I obtained through the program Netvizz on my Facebook page, the graph was a solid cluster of nodes and edges. There was no way to analyze my data because it wasn’t legible at all. After narrowing down my number of nodes using the degree range filter, I started to manipulate my graph to better analyze its data.  First, I went into the layout section, and chose ForceLayout2. This separated my nodes and brought them into more obvious clusters. I turned my labels on, so I knew which nodes represented which friends. Next, I went into the partition tab and chose modularity class; this is what color-coded the clusters in my graph. In order to see which nodes have more influence, I went in the network overview drop down menu and selected average degree. This changed the size of the nodes depending on the influence that node carries. At this point my graph was legible and color coordinated, I just needed to manually move a few nodes to make sure that all edges and vertices were clearly shown, and that each label could be clearly read. 
